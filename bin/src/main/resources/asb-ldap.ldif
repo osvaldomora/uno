@@ -1,0 +1,60 @@
+
+#cn=comun name
+#sn=surname
+#uid=userid
+#ou=organizational unit
+#dc = Componente de dominio
+#dn= distinguid name para ubicar toda la ruta
+
+dn: dc=santander,dc=com
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: santander
+
+dn: ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=90001,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Ivan
+sn: Santos
+uid: 90001
+description: Pretty Girl!!
+password: 1
+estatus: ACTIVO
+mail: usuario1@profesional.com
+count: 0
+
+dn: uid=90002,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Enrique
+sn: Torres
+uid: 90002
+description: Cool guy!!
+password: 1
+estatus: INACTIVO
+mail: usuario2@profesional.com
+count: 0
+
+dn: uid=90003,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Juan
+sn: Garcia
+uid: 90003
+description: Technical blog!.
+password:
+estatus: ENROLAMIENTO
+mail: 
+count: 0

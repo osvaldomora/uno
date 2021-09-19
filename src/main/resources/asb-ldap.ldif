@@ -1,0 +1,114 @@
+
+#cn=comun name
+#sn=surname
+#uid=userid
+#ou=organizational unit
+#dc = Componente de dominio
+#dn= distinguid name para ubicar toda la ruta
+
+dn: dc=santander,dc=com
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: santander
+
+dn: ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: employeeNumber=980714019292,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Ivan
+sn: Santos Martinez
+description:
+employeeNumber: 980714019292
+initials:
+mail: isantoso@gmail.com
+st: 0
+telephoneNumber: 55987654321
+title: ACTIVO
+userPassword:
+
+dn: employeeNumber=98714019293,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: ENRIQUE
+sn: TORRES GARCIA
+description:
+employeeNumber: 98714019293
+initials:
+mail: enrique.torres@gmail.com
+st: 0
+telephoneNumber: 5512345678
+title: ENROLAR
+userPassword:
+
+dn: employeeNumber=980714019291,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Alejandro
+sn: Perez Martinez
+description:
+employeeNumber: 980714019291
+initials:
+mail: isantoso@gmail.com
+st: 0
+telephoneNumber: 5521659874
+title: BAJA
+userPassword:
+
+dn: employeeNumber=1234567890,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Miguel
+sn: Gomez Hernadez
+description:
+employeeNumber: 1234567890
+initials:
+mail: mgomez@gmail.com
+st: 0
+telephoneNumber: 5521659874
+title: ENROLAR
+userPassword: 123azs123z
+
+dn: employeeNumber=98071230,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Pedro
+sn: Lopez Gonzalez
+description:
+employeeNumber: 98071230
+initials:
+mail: plopez@gmail.com
+st: 0
+telephoneNumber: 5521659874
+title: ENROLAR
+userPassword:
+
+dn: employeeNumber=98071231,ou=people,dc=santander,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Ana Maria
+sn: Cruz Gomez
+description:
+employeeNumber: 98071231
+initials:
+mail: agomez@gmail.com
+st: 0
+telephoneNumber: 5521659874
+title: BAJA
+userPassword: 1A2b3c4d
